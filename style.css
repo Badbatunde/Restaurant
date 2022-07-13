@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  background-color: black;
+  line-height: 25px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  letter-spacing: 3px;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  background-color: black;
+  width: 100%;
+  box-shadow: 2px 5px 5px rgba(66, 65, 65, 0.4);
+}
+
+nav ul {
+  display: flex;
+  position: fixed;
+  top: 0px;
+  right: 10px;
+  align-items: center;
+  padding: 20px 20px;
+}
+
+nav li {
+  margin-right: 30px;
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+header img {
+  width: 100%;
+  height: 620px;
+  object-fit: fill;
+  margin-top: 60px;
+}
+
+header h1 {
+  margin: -70px 20px 50px 20px;
+  letter-spacing: 3px;
+}
+
+.wrapper {
+  margin: 100px 150px;
+}
+
+section .about {
+  display: flex;
+  justify-content: space-between;
+}
+
+.secttext {
+  margin-left: 50px;
+}
+
+.sectimage img {
+  width: 500px;
+  height: 670px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.secttext h2 {
+  text-align: center;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+hr {
+  border: 0.5px rgb(35, 35, 35) solid;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+#menu {
+  display: flex;
+}
+
+#menu h2 {
+  text-align: center;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+#menu img {
+  width: 500px;
+  height: 670px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+#menu .text {
+  margin-right: 50px;
+}
+
+aside h2 {
+  text-align: start;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+footer {
+  padding-bottom: 25px;
+  padding-top: 25px;
+  text-align: center;
+  letter-spacing: 1px;
+  background-color: rgba(6, 6, 6, 0.2);
+}
+
+footer a {
+  color: white;
+  letter-spacing: 2px;
+}
