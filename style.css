@@ -17,14 +17,13 @@ h2 {
 .navbar {
   display: flex;
   justify-content: space-between;
-  padding: 20px 50px;
+  padding: 15px 50px;
   letter-spacing: 3px;
   overflow: hidden;
   position: fixed;
   top: 0;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.4);
   width: 100%;
-  box-shadow: 2px 5px 5px rgba(66, 65, 65, 0.4);
 }
 
 nav ul {
@@ -33,7 +32,7 @@ nav ul {
   top: 0px;
   right: 10px;
   align-items: center;
-  padding: 20px 20px;
+  padding: 15px 20px;
 }
 
 nav li {
@@ -130,7 +129,7 @@ footer {
 }
 
 footer a {
-  color: white;
+  color: blue;
   letter-spacing: 2px;
 }
 
@@ -168,7 +167,7 @@ footer a {
   margin-right: 30px;
   margin-top: 0;
   object-fit: contain;
-  border: 1px solid white;
+  border: 1px solid blue;
 }
 
 .customer img {
@@ -176,4 +175,29 @@ footer a {
   height: 20px;
   object-fit: contain;
   margin-top: 0;
+}
+
+.logos {
+  text-align: center;
+  margin-top: 20px;
+}
+.logos img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+button {
+  margin-right: 600px;
+  padding: 5px;
+  font-size: 12px;
+  font-style: oblique;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  cursor: pointer;
+}
+
+.light-mode {
+  background-color: white;
+  color: black;
 }
