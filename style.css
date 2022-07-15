@@ -105,7 +105,7 @@ hr {
 #menu img {
   width: 500px;
   height: 670px;
-  object-fit: contain;
+  object-fit: cover;
   border-radius: 10px;
 }
 
