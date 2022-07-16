@@ -10,6 +10,12 @@ body {
   line-height: 25px;
 }
 
+h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  letter-spacing: 3px;
+}
+
 h2 {
   color: blue;
 }
@@ -18,7 +24,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   padding: 15px 50px;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   overflow: hidden;
   position: fixed;
   top: 0;
@@ -48,8 +54,9 @@ nav a {
 header img {
   width: 100%;
   height: 620px;
-  object-fit: fill;
+  object-fit: contain;
   margin-top: 60px;
+  background-color: rgba(55, 16, 49, 0.5);
 }
 
 header h1 {
@@ -161,8 +168,8 @@ footer a {
 }
 
 .avatar img {
-  width: 100px;
-  height: 100px;
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
   margin-right: 30px;
   margin-top: 0;
@@ -200,4 +207,15 @@ button {
 .light-mode {
   background-color: white;
   color: black;
+}
+
+.whatsapp img {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+  position: fixed;
+  border-radius: 0%;
+  bottom: 20px;
+  right: 20px;
+  box-shadow: 1px 1px 5px beige;
 }
