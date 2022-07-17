@@ -13,7 +13,7 @@ let i = 0;
 let images = []; 
 let time = 3000;
 
-// Images list
+// Images list for header
 images[0] = 'images/dodo.jpg';
 images[1] = 'images/fufu.jpeg';
 images[2] = 'images/vegs.jpeg';
