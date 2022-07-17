@@ -66,7 +66,7 @@ header h1 {
 }
 
 .wrapper {
-  margin: 100px 150px;
+  margin: 100px 150px 20px 150px;
 }
 
 section .about {
@@ -92,6 +92,10 @@ section .about {
   font-size: 30px;
 }
 
+.secttext p {
+  text-align: justify;
+}
+
 hr {
   border: 0.5px rgb(35, 35, 35) solid;
   margin-top: 70px;
@@ -109,6 +113,10 @@ hr {
   font-size: 30px;
 }
 
+#menu h3 {
+  line-height: 1.5em;
+}
+
 #menu img {
   width: 500px;
   height: 670px;
@@ -120,6 +128,9 @@ hr {
   margin-right: 50px;
 }
 
+#menu p {
+  line-height: 1.3em;
+}
 aside h2 {
   text-align: start;
   letter-spacing: 5px;
@@ -128,8 +139,7 @@ aside h2 {
 }
 
 footer {
-  padding-bottom: 25px;
-  padding-top: 25px;
+  padding: 10px 0px;
   text-align: center;
   letter-spacing: 1px;
   background-color: rgba(6, 6, 6, 0.2);
@@ -138,10 +148,6 @@ footer {
 footer a {
   color: blue;
   letter-spacing: 2px;
-}
-
-#review {
-  padding: 50px 100px;
 }
 
 .review {
@@ -155,16 +161,24 @@ footer a {
 }
 
 .review h3 {
-  letter-spacing: 5px;
-  margin-bottom: 10px;
-  font-size: 30px;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.review p {
+  font-size: 15px;
+  text-align: justify;
+  margin-left: 100px;
+  line-height: 1.3em;
+  letter-spacing: 1px;
 }
 
 .review header {
   display: flex;
   align-items: center;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 
 .avatar img {
@@ -209,6 +223,23 @@ button {
   color: black;
 }
 
+#contacts h2 {
+  text-align: center;
+}
+
+#contacts p {
+  font-family: "Courier New", Courier, monospace;
+  font-size: large;
+  margin-top: 5px;
+  font-weight: 700;
+}
+
+#contacts span {
+  color: violet;
+  font-weight: 700;
+  font-family: "Courier New", Courier, monospace;
+}
+
 .whatsapp img {
   width: 70px;
   height: 70px;
@@ -218,4 +249,35 @@ button {
   bottom: 20px;
   right: 20px;
   box-shadow: 1px 1px 5px beige;
+}
+
+.text p {
+  margin-bottom: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text h3 {
+  font-family: cursive;
+  color: brown;
+}
+
+.menux {
+  background-color: rgba(165, 42, 42, 0.7);
+  color: black;
+  border: none;
+  margin-right: 0px;
+  text-align: center;
+  margin-left: 40%;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+.address p {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(40, 102, 40);
+  font-weight: 700;
 }
