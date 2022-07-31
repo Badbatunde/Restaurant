@@ -16,6 +16,10 @@ h1 {
   letter-spacing: 3px;
 }
 
+.checked {
+  color: orange;
+}
+
 h2 {
   color: blue;
 }
@@ -44,6 +48,11 @@ nav ul {
 nav li {
   margin-right: 30px;
   list-style: none;
+}
+
+nav button {
+  border: none;
+  background: none;
 }
 
 nav a {
@@ -94,6 +103,7 @@ section .about {
 
 .secttext p {
   text-align: justify;
+  font-family: "Montserrat", sans-serif;
 }
 
 hr {
@@ -172,6 +182,7 @@ footer a {
   margin-left: 100px;
   line-height: 1.3em;
   letter-spacing: 1px;
+  font-family: "Uchen", serif;
 }
 
 .review header {
@@ -281,3 +292,8 @@ button {
   color: rgb(40, 102, 40);
   font-weight: 700;
 }
+
+/* #map {
+  height: 400px;
+  width: 400px;
+} */
