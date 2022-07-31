@@ -5,10 +5,10 @@ lightMode.addEventListener('click', switchMode)
 function switchMode () {
     let body = document.body;
     body.classList.toggle('light-mode')
-    lightMode.innerHTML = 'Change mode'
+    lightMode.classList = 'fa fa-moon-o'
 }
 
-// Slide start point, images array and timeout.
+// Slide start point, new images array and a time variable.
 let i = 0;
 let images = []; 
 let time = 3000;
@@ -35,3 +35,22 @@ function changeImage() {
 }
 
 window.onload = changeImage;
+
+// // Initialize and add the map
+// function initMap() {
+  
+//     // The location of Geeksforgeeks office
+//     const Jedtt = {
+//         lat: 6.605874,
+//         lng: 3.349149
+//     };
+
+//     // Create the map, centered at gfg_office
+//     const map = new google.maps.Map(
+//             document.getElementById("map"), {
+
+//         // Set the zoom of the map
+//         zoom: 17.56,
+//         center: Jedtt,
+//     });
+// }
