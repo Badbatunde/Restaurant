@@ -36,21 +36,21 @@ function changeImage() {
 
 window.onload = changeImage;
 
-// // Initialize and add the map
-// function initMap() {
+// Initialize and add the map
+/* function initMap() {
   
-//     // The location of Geeksforgeeks office
-//     const Jedtt = {
-//         lat: 6.605874,
-//         lng: 3.349149
-//     };
+    // The location of Geeksforgeeks office
+    const Jedtt = {
+        lat: 6.605874,
+        lng: 3.349149
+    };
 
-//     // Create the map, centered at gfg_office
-//     const map = new google.maps.Map(
-//             document.getElementById("map"), {
+    // Create the map, centered at gfg_office
+    const map = new google.maps.Map(
+            document.getElementById("map"), {
 
-//         // Set the zoom of the map
-//         zoom: 17.56,
-//         center: Jedtt,
-//     });
-// }
+        // Set the zoom of the map
+        zoom: 17.56,
+        center: Jedtt,
+    });
+} */
