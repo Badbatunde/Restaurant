@@ -36,21 +36,12 @@ function changeImage() {
 
 window.onload = changeImage;
 
-// Initialize and add the map
-/* function initMap() {
-  
-    // The location of Geeksforgeeks office
-    const Jedtt = {
-        lat: 6.605874,
-        lng: 3.349149
-    };
-
-    // Create the map, centered at gfg_office
-    const map = new google.maps.Map(
-            document.getElementById("map"), {
-
-        // Set the zoom of the map
-        zoom: 17.56,
-        center: Jedtt,
-    });
-} */
+// The map
+mapboxgl.accessToken =
+"pk.eyJ1IjoiYmFkYmF0dW5kZSIsImEiOiJjbDZjbTV1OWswNXVmM2NuaWF2YnplNmtvIn0.rOJV4i3F8y72OXlu27TroA";
+var map = new mapboxgl.Map({
+container: "map",
+style: "mapbox://styles/mapbox/streets-v11",
+center: [3.3792, 6.5244],
+zoom: 18,
+});
