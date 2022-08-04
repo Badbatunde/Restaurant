@@ -260,7 +260,7 @@ button {
   bottom: 20px;
   right: 20px;
   color: green;
-  transition: all 0.07 ease;
+  transition: all 0.1s ease;
 }
 
 .whatsapp:hover {
@@ -304,8 +304,3 @@ button {
   height: 300px;
   border-radius: 10px;
 }
-
-/* #map {
-  height: 400px;
-  width: 400px;
-} */
