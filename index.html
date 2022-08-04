@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <!-- Font link -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -11,16 +12,24 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&family=Roboto:wght@300;400&family=Uchen&display=swap"
       rel="stylesheet"
     />
+
     <!-- Font Awesome Icon Library-->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- Mapbox CSS link -->
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css"
+      rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
     <title>Restaurant</title>
   </head>
   <body>
     <div class="container">
+      <!-- Navbar -->
       <nav class="navbar">
         <h1><a href="#">JEDTT'S KITCHEN</a></h1>
         <button class="fa fa-lightbulb-o"></button>
@@ -31,6 +40,8 @@
           <li><a href="#contacts">Contact</a></li>
         </ul>
       </nav>
+
+      <!-- Showcase -->
       <header>
         <img name="slide" alt="" />
         <h1>Jedtt's Kitchen</h1>
@@ -65,6 +76,8 @@
             </div>
           </div>
         </section>
+
+        <!-- Menu -->
         <hr id="menus" />
         <section id="menu">
           <div class="text">
@@ -107,6 +120,7 @@
           <div class="menuimage">
             <img src="images\jrice1.jpeg" alt="" />
           </div>
+          <!-- Review -->
         </section>
         <hr id="reviewss" />
         <section id="reviews">
@@ -194,15 +208,15 @@
             /></a>
           </div>
         </aside>
+        <div class="col-md">
+          <div id="map"></div>
+        </div>
       </div>
-      <div class="whatsapp">
-        <a href="https://wa.me/message/WSTZE4NZUF5FK1"
-          ><img src="images\whatsapp.png" alt=""
-        /></a>
+      <div class="whats">
+        <a href="https://wa.me/message/WSTZE4NZUF5FK1" target="_blank"
+          ><span class="fa fa-whatsapp whatsapp"> Order Here</span></a
+        >
       </div>
-
-      <!-- A map of the Kitchen's Location -->
-      <!-- <div id="map"></div> -->
 
       <!-- Footer -->
       <footer>
@@ -212,12 +226,11 @@
         </p>
       </footer>
 
-      <!--Add a script by google for the map -->
-      <!-- <script
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCQCkZDo_gvdIaqy5B3X2yDNByqvzERiGo&callback=initMap&libraries=&v=weekly"
-        async
-      ></script> -->
+      <!-- The map -->
+      <script src="https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js"></script>
     </div>
+
+    <!-- The script -->
     <script src="main.js"></script>
   </body>
 </html>
