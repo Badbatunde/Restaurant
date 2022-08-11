@@ -305,6 +305,11 @@ button {
   border-radius: 10px;
 }
 
+.icon {
+  background: rgb(242, 250, 5);
+  display: none;
+}
+
 .the-owner {
   display: flex;
   align-items: center;
@@ -323,4 +328,100 @@ button {
   object-fit: cover;
   margin-left: 20px;
   border-radius: 50%;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 600px) {
+  .topnav a {
+    display: none;
+  }
+
+  .topnav a.icon {
+    float: left;
+    display: none;
+  }
+
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive ul {
+    flex-direction: column;
+    display: block;
+    text-align: right;
+  }
+  .topnav.responsive {
+    float: none;
+    position: relative;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+
+  .sectimage img {
+    display: none;
+  }
+
+  section .about {
+    flex-direction: column;
+    margin: 0px;
+  }
+
+  .secttext {
+    margin-left: 0px;
+  }
+
+  .the-owner {
+    margin: 0px;
+  }
+
+  #menu {
+    flex-direction: column;
+  }
+
+  .col-md {
+    display: none;
+  }
+
+  .container {
+    margin: 10px;
+  }
+
+  .menuimage {
+    display: none;
+  }
+
+  #menu .text {
+    margin-right: 0px;
+    text-align: justify;
+  }
+
+  .review {
+    padding: 0;
+  }
+
+  header img {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+    margin-top: 0px;
+    background-color: black;
+  }
+
+  .wrapper {
+    margin: 10px;
+  }
+
+  header h1 {
+    display: none;
+  }
+
+  .whatsapp {
+    font-size: 25px;
+  }
 }
