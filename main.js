@@ -42,6 +42,16 @@ mapboxgl.accessToken =
 var map = new mapboxgl.Map({
 container: "map",
 style: "mapbox://styles/mapbox/streets-v11",
-center: [3.3792, 6.5244],
+center: [3.2804, 6.6284],
 zoom: 18,
 });
+
+// For the mobile Navbar.
+function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.className === "topnav") {
+      x.className += "responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
