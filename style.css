@@ -304,3 +304,23 @@ button {
   height: 300px;
   border-radius: 10px;
 }
+
+.the-owner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border: 2px solid red;
+  padding: 20px;
+  background-color: rgb(102, 105, 196);
+}
+
+.owner img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  margin-left: 20px;
+  border-radius: 50%;
+}
