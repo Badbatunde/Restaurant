@@ -434,4 +434,12 @@ button {
     padding-top: 5px;
     padding-bottom: 5px;
   }
+
+  .navbar h1 {
+    margin-right: 50%;
+  }
+
+  /* .fa-lightbulb-o {
+    margin-left: 50%;
+  } */
 }
