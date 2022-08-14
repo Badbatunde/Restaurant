@@ -30,13 +30,16 @@
         <div class="collapse navbar-collapse" id="navmenu">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a href="index.html" class="nav-link">Main Dishes</a>
+              <a href="#mainDishes" class="nav-link">Main Dishes</a>
             </li>
             <li class="nav-item">
-              <a href="index.html" class="nav-link">Side Dishes</a>
+              <a href="#sideDishes" class="nav-link">Side Dishes</a>
             </li>
             <li class="nav-item">
-              <a href="index.html" class="nav-link">Stock Up</a>
+              <a href="#stockUp" class="nav-link">Stock Up</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
             </li>
           </ul>
         </div>
@@ -54,7 +57,8 @@
       </div>
     </section>
 
-    <section class="text-light bg-danger pt-2 pb-2 p-4">
+    <!-- Main Dishes section -->
+    <section class="text-light bg-danger pt-2 pb-2 p-4" id="mainDishes">
       <div class="container text-center">
         <div class="">
           <h3 class="mb-0 mb-md-0">Main Dishes</h3>
@@ -63,7 +67,7 @@
     </section>
 
     <!-- Menu boxes -->
-    <section class="p-5 pb-0 pt-2" >
+    <section class="p-5 pb-0 pt-2">
       <div class="container">
         <div class="row text-center g-3">
           <div class="col-md">
@@ -337,7 +341,8 @@
       </div>
     </section>
 
-    <section class="text-light bg-danger pt-2 pb-2 p-4">
+    <!-- Side Dishes section -->
+    <section class="text-light bg-danger pt-2 pb-2 p-4" id="sideDishes">
       <div class="container text-center">
         <div class="">
           <h3 class="mb-0 mb-md-0">Side Dishes</h3>
@@ -416,7 +421,7 @@
     </section>
 
     <!-- Stock up -->
-    <section class="text-light bg-danger pt-0 pb-2 p-4">
+    <section class="text-light bg-danger pt-0 pb-2 p-4" id="stockUp">
       <div class="container text-center">
         <div class="stock">
           <h3>Stock Up</h3>
@@ -566,7 +571,7 @@
     </section>
 
       <!-- Contact & Map -->
-      <section class="p-5">
+      <section class="p-5" id="contact">
         <div class="container">
           <div class="row g-4">
             <div class="col-md">
@@ -585,9 +590,6 @@
                 </li>
               </ul>
             </div>
-            <div class="col-md">
-              <div id="map"></div>
-            </div>
           </div>
         </div>
       </section>
@@ -605,6 +607,8 @@
 
     <!-- Bootstrap download -->
     <script src="js/bootstrap.js"></script>
+
+    <!-- The script -->
     <script src="main.js"></script>
   </body>
 </html>
