@@ -408,6 +408,10 @@ button {
     text-align: justify;
   }
 
+  .menux {
+    margin-bottom: 20px;
+  }
+
   .review {
     padding: 0;
   }
@@ -445,8 +449,4 @@ button {
   .navbar h1 {
     margin-right: 50%;
   }
-
-  /* .fa-lightbulb-o {
-    margin-left: 50%;
-  } */
 }
